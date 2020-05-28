@@ -1,0 +1,382 @@
+# Translation of Themes - Silk Lite in French (France)
+# This file is distributed under the same license as the Themes - Silk Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-29 12:22:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Silk Lite\n"
+
+#. Theme Name of the theme
+msgid "Silk Lite"
+msgstr "Silk Lite"
+
+#: inc/customizer.php:76
+msgid "Theme Options"
+msgstr "Options du thème"
+
+#: templates/top-header-bar.php:36
+msgid "Secondary right navigation"
+msgstr "Navigation secondaire de droite"
+
+#: templates/top-header-bar.php:16
+msgid "Secondary left navigation"
+msgstr "Navigation secondaire de gauche"
+
+#. translators: %s: The search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr "Résultats de la recherche pour&nbsp;: %s"
+
+#: loop.php:36
+msgid "View More Articles"
+msgstr "Voir plus d&rsquo;articles"
+
+#. translators: %s: Get more traffic URL.
+#: inc/widgets/popular-posts.php:128
+msgid "There are no posts to display. <a href=\"%s\">Want more traffic?</a>"
+msgstr "Aucun article à afficher. Vous voulez <a href=\"%s\">Augmenter le trafic ?</a>"
+
+#: loop.php:14
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/widgets/popular-posts.php:73
+msgid "Popular Posts by views are calculated from 24-48 hours of stats. They take a while to change."
+msgstr "Les articles populaires par vues sont calculés à partir des stats de 24-48 heures. Cela peut prendre un peu de temps pour changer."
+
+#: inc/widgets/popular-posts.php:47
+msgid "Popular Posts"
+msgstr "Articles populaires"
+
+#: inc/widgets/popular-posts.php:41
+msgid "Silk Popular Posts"
+msgstr "Silknbsp;: Articles populaires"
+
+#: inc/widgets/popular-posts.php:43
+msgid "Shows your most viewed posts."
+msgstr "Afficha vos articles les plus vus."
+
+#: inc/widgets/popular-posts.php:69
+msgid "Maximum number of posts to show (no more than 10):"
+msgstr "Nombre maximum d&rsquo;articles à afficher (pas plus que 10)nbsp;:"
+
+#: inc/widgets/about-me.php:177
+msgid "About You:"
+msgstr "Â propos de vousnbsp;:"
+
+#: inc/widgets/about-me.php:182
+msgid "Automatically add paragraphs"
+msgstr "Ajout automatique des paragraphes"
+
+#: inc/widgets/about-me.php:161
+msgid "Update Image"
+msgstr "Mettre à jour l'image"
+
+#: inc/widgets/about-me.php:172
+msgid "Your Name:"
+msgstr "Votre nom&nbsp;:"
+
+#: inc/widgets/about-me.php:160 inc/widgets/about-me.php:168
+msgid "Choose an Background Image"
+msgstr "Choix d&rsquo;une image de fond"
+
+#: inc/widgets/popular-posts.php:64 inc/widgets/about-me.php:155
+msgid "Title:"
+msgstr "Titre’:"
+
+#: inc/widgets/about-me.php:36
+msgid "About Me"
+msgstr "A propos de moi"
+
+#: inc/widgets/about-me.php:29
+msgid "Silk Lite About Me"
+msgstr "Skill Litenbsp;: Â propos de moi"
+
+#: inc/widgets/about-me.php:32
+msgid "Display some info about you with an image background."
+msgstr "Affiche quelques infos sur vous avec une image de fond."
+
+#: inc/template-tags.php:330
+msgid "Edit post"
+msgstr "Modifier l&rsquo;article"
+
+#. translators: %d: The number of comments.
+#: inc/template-tags.php:326
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#. translators: %d: The number of comments.
+#: inc/template-tags.php:326
+msgid "Leave a comment"
+msgstr "Laissez un commentaire"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:242 inc/template-tags.php:307
+#: inc/template-tags.php:314
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:156
+msgid "Next image"
+msgstr "Image suivante"
+
+#: inc/template-tags.php:134
+msgid "Previous image"
+msgstr "Image précédente"
+
+#: inc/template-tags.php:119
+msgid "Image navigation"
+msgstr "Navigation des images"
+
+#: inc/template-tags.php:94
+msgid "Next"
+msgstr "Prochaine"
+
+#: inc/template-tags.php:60
+msgid "Previous"
+msgstr "Préc."
+
+#: inc/template-tags.php:26
+msgid "Post navigation"
+msgstr "Navigation d'article"
+
+#: inc/extras.php:331
+msgid "Two Columns"
+msgstr "Deux colonnes"
+
+#: inc/extras.php:329
+msgid "Dropcap"
+msgstr "Dropcap"
+
+#: inc/extras.php:330
+msgid "Highlight"
+msgstr "En vedette"
+
+#: inc/extras.php:328
+msgid "Intro Text"
+msgstr "Texte d&rsquo;intro"
+
+#: inc/extras.php:254
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de validation"
+
+#. translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: inc/extras.php:183
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. Translators: If there are characters in your language that are not *
+#. supported by Libre Baskerville, translate this to 'off'. Do not translate *
+#. into your own language.
+#: inc/extras.php:162
+msgctxt "Libre Baskerville font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not *
+#. supported by Playfair Display, translate this to 'off'. Do not translate *
+#. into your own language.
+#: inc/extras.php:170
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not *
+#. supported by Merriweather, translate this to 'off'. Do not translate * into
+#. your own language.
+#: inc/extras.php:178
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#: inc/customizer.php:125
+msgid "-1"
+msgstr "-1"
+
+#: inc/customizer.php:126
+msgid "-2"
+msgstr "-2"
+
+#: inc/customizer.php:127
+msgid "-3"
+msgstr "-3"
+
+#: inc/customizer.php:128
+msgid "-4"
+msgstr "-4"
+
+#: inc/customizer.php:138
+msgid "Additional Copyright Text"
+msgstr "Texte additionnel de copyright"
+
+#: inc/customizer.php:124
+msgid "0"
+msgstr "0"
+
+#: inc/customizer.php:108
+msgid "Hide search button in top header bar"
+msgstr "Cacher le bouton de recherche dans l&rsquo;en-tête."
+
+#: inc/customizer.php:86
+msgid "Display single column posts on front page and archives."
+msgstr "Afficher une seule colonne d&rsquo;articles sur la page d&rsquo;accueil et les archives."
+
+#: inc/customizer.php:97
+msgid "Display the featured image on single posts."
+msgstr "Afficher l&rsquo;image mise en avant sur les articles."
+
+#: inc/customizer.php:24
+msgid "Display Site Title &amp; Tagline"
+msgstr "Afficher le titre du site et son slogan"
+
+#: image.php:41
+msgid "Published in"
+msgstr "Publié dans"
+
+#: header.php:31
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: functions.php:275
+msgid "Update Background Image"
+msgstr "Mise à jour d&rsquo;image de fond"
+
+#: functions.php:274
+msgid "Choose a Background Image"
+msgstr "Choisir une image d&rsquo;arrière-plan"
+
+#: functions.php:203
+msgid "Add widgets here to appear in your footer sidebar."
+msgstr "Ajoutez des widgets ici pour les afficher dans votre barre de pied."
+
+#: functions.php:201
+msgid "Footer"
+msgstr "Pied de page"
+
+#: functions.php:193
+msgid "Add widgets here to appear in your main sidebar."
+msgstr "Ajoutez des widgets ici pour les afficher dans votre barre de principale."
+
+#: functions.php:191
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:64
+msgid "Footer Menu"
+msgstr "Menu Pied"
+
+#: functions.php:62
+msgid "Top Header Left Menu"
+msgstr "Menu d&rsquo;en-tête en haut à gauche"
+
+#: functions.php:63
+msgid "Top Header Right Menu"
+msgstr "Menu d&rsquo;en-tête en haut à droite"
+
+#: header.php:77 functions.php:61
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#. translators: %1$s: The theme name, %2$s: The theme author name.
+#: footer.php:65
+msgid "Theme: %1$s by %2$s."
+msgstr "Thème %1$s par %2$s"
+
+#. translators: %s: WordPress
+#: footer.php:61
+msgid " Proudly powered by %s"
+msgstr "Fièrement propulsé par %s"
+
+#: footer.php:59
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: footer.php:25
+msgid "Begin typing your search above and press return to search. Press Esc to cancel."
+msgstr "Commencez à saisir votre recherche puis pressez Entrée. Pressez Echap pour annuler."
+
+#: footer.php:28
+msgid "Close search"
+msgstr "Fermer la recherche"
+
+#: footer.php:45
+msgid "Footer navigation"
+msgstr "Navigation du pied"
+
+#: content-none.php:37
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Il semble que rien ne soit trouvé pour votre recherche."
+
+#: content-none.php:31
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à vos critères."
+
+#: content-none.php:18
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#: inc/extras.php:242 content-page.php:43 content-attachment.php:58
+msgid "Edit"
+msgstr "Éditer"
+
+#: content-gallery.php:62 content-aside.php:42 content-video.php:60
+#: content-single.php:61 content-audio.php:61 content-page.php:29
+#: content-attachment.php:45 content.php:62
+msgid "Page"
+msgstr "Page"
+
+#: content-gallery.php:58 content-aside.php:38 content-video.php:56
+#: content-single.php:57 content-audio.php:57 content-page.php:25
+#: content-attachment.php:41 content.php:58
+msgid "Pages:"
+msgstr "Pages"
+
+#. translators: %s: Name of current post
+#: content-gallery.php:49 content-aside.php:32 content-video.php:48
+#: content-audio.php:49 content-quote.php:34 content.php:49
+msgid "Continue reading %s"
+msgstr "Lire la suite de %s"
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr "Les commentaires sont clos."
+
+#: comments.php:48 comments.php:65
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: comments.php:47 comments.php:64
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaire plus anciens"
+
+#: comments.php:39
+msgid "There are no comments"
+msgstr "Il n&rsquo;y a aucun commentaire."
+
+#: comments.php:46 comments.php:63
+msgid "Comment navigation"
+msgstr "Navigation de commentaire"
+
+#: comments.php:41
+msgid "Add Yours"
+msgstr "Ajoutez les vôtres"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search."
+msgstr "Il semble que rien ne soit trouvé à cet endroit. Essayez un des liens ci-dessous ou une recherche."
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups, la page ne peut être trouvée"
+
+#. Author URI of the theme
+msgid "https://pixelgrade.com/"
+msgstr "https://pixelgrade.com/"
