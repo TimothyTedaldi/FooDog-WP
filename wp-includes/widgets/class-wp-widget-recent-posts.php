@@ -48,6 +48,7 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 		$title = ( ! empty( $instance['title'] ) ) ? $instance['title'] : __( 'Recent Posts' );
 
 		/** This filter is documented in wp-includes/widgets/class-wp-widget-pages.php */
+		
 		$title = apply_filters( 'widget_title', $title, $instance, $this->id_base );
 
 		$number = ( ! empty( $instance['number'] ) ) ? absint( $instance['number'] ) : 5;
@@ -95,6 +96,7 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 				<?php
 				$post_title   = get_the_title( $recent_post->ID );
 				$title        = ( ! empty( $post_title ) ) ? $post_title : __( '(no title)' );
+				$image= get_the_post_thumbnail( $recent_post->ID, 'thumbnail' );
 				$aria_current = '';
 
 				if ( get_queried_object_id() === $recent_post->ID ) {
@@ -102,6 +104,7 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 				}
 				?>
 				<li>
+					<?= $image; ?>
 					<a href="<?php the_permalink( $recent_post->ID ); ?>"<?php echo $aria_current; ?>><?php echo $title; ?></a>
 					<?php if ( $show_date ) : ?>
 						<span class="post-date"><?php echo get_the_date( '', $recent_post->ID ); ?></span>
