@@ -8,7 +8,7 @@
 </head>
 <body>
     <header id="header">
-        <h1><?php echo bloginfo('name'); ?></h1>
+        <h1><a href="../index.php"><?php echo bloginfo('name'); ?></a></h1>
         <nav id="navigation">
             <?php wp_nav_menu(array('theme_location' => 'main')); ?>
         </nav>
@@ -42,14 +42,41 @@
         </section>
       
 
-        <aside id="sidebar">
+        <aside id="sidebar" class="row mt-5">
+            <div class="col-md-12">
         <?php   
             dynamic_sidebar('main-sidebar'); 
         ?>
+            </div>
         </aside>    
     </div>
 
-    <footer id="footer">
+    <footer id="footer" class="row">
+        <div class="col-md-4 categories">
+            <h4>Categories</h4>
+            <?php wp_nav_menu(array('theme_location' => 'main')); ?>
+        </div>
+
+        <div class="col-md-4">
+            <h4 class="text-center">Popular Posts</h4>
+            <?php if(have_posts()) : ?>
+                <?php        
+                the_post(); 
+                $image = get_the_post_thumbnail( $post->ID, 'pop-thumb' );
+                ?>
+                    <article class="col-md-12" style="height:100%">
+                        <?php echo $image; ?>
+                        <h2 class="mt-2"><a href="<?php get_permalink(); ?>"><?php the_title(); ?></a></h2>
+                    </article>
+            <?php endif; ?>
+        </div>
+
+        <div class="col-md-4">
+            <h4 class="text-center">Instagram</h4>
+            <?php   
+                dynamic_sidebar('footer-sidebar'); 
+            ?>
+        </div>
     </footer>
 
     <?php wp_footer(); ?>

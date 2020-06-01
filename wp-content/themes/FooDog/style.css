@@ -7,12 +7,16 @@ Description: Projet WordPress BeCode
 Version: 1.0
 */
 
+@font-face { font-family: ‘crimsonregular’; src: url(‘crimson1.ttf’); }
+@font-face { font-family: ‘crimsonitalic’; src: url(‘crimson2.ttf’); }
+@font-face { font-family: ‘crimsonbold’; src: url(‘crimson3.ttf’); }
 
 * {box-sizing: border-box;}
 body {background: #ffffff; color: #3d3c3c; font-family: Arial, sans-serif; margin: 0;}
 
 a {color: #202020; text-decoration: none;}
 a:hover {color: #4e4e4e; text-decoration: underline;}
+h1{ font-family: 'crimsonbold', sans-serif;}
 h2{font-size:1em; text-align:center;font-weight:bold; color:rgb(75, 72, 72);}
 input[type="text"] {border-radius: 4px; border: none; padding: 10px; border: 1px solid #23282d;}
 #s {margin: 0 0 10px 0;}
@@ -30,9 +34,14 @@ button, input[type="submit"] {cursor: pointer; border-radius: 4px; border: none;
 #wrap {display: flex; width: 960px; margin: 0 auto;}
 #loop article {margin: 0 0 50px 0;}
 #pagination {text-align: center; margin: 0 0 100px 0;}
-#sidebar {padding: 0 0 0 50px; flex: 0 0 350px;}
-#sidebar .widget {padding: 20px; margin: 0 0 20px 0; background: #fff; border: 1px solid #ccc;}
+#sidebar {padding: 0 0 0 50px; }
+ul li{list-style-type: none; margin-bottom: 50px;}
+#sidebar .widget {padding: 20px; margin: 0 0 20px 0; background: #fff;}
+h2.widget-title{ text-align:left;}
 #footer {padding: 100px 0; display: flex; background: #23282d; color: #f1f1f1;}
+#footer h4{ font-size:0.8em; color: gray;}
+#footer a{color:white;}
+#footer .categories{ text-align: center; font-size:0.7em; color:white;}
 #footer .widget {flex: 1; padding: 0 40px;}
 
 @media screen and (max-width: 959px) {
